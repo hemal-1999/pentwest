@@ -1,0 +1,53 @@
+section.service{
+    p{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #333;
+        text-transform: capitalize;
+    }
+    h4{
+        font-size: 28px;
+        word-spacing: 5px;
+        font-weight: 400;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+    }
+    a{
+        color: #fff;
+        transition: .5s;
+        font-size: 20px;
+        margin-top: 1rem;
+        &:hover{
+            color: #555;
+            border: 2px solid #d24130;
+        }
+    }
+    .service-box{
+        margin-top: 10px;
+        i{
+            padding: 25px;
+            font-size: 50px;
+            color: #d24130;
+            transition: all .5s;
+            cursor: pointer;
+            background-image: linear-gradient(to bottom,rgba(#d24130,.5),white);
+            &:hover{
+                background-image: linear-gradient(to bottom,rgba(#d24130,1),white);
+                color: #fff;
+            }
+        }
+        big{
+            margin: 30px 0;
+            font-size: 24px;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+        }
+        p{
+            text-transform: uppercase;
+            color: #333;
+            font-size: 16px;
+            color: #333;
+        }
+    }
+}

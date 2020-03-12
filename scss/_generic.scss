@@ -1,0 +1,21 @@
+.generic-btn{
+    padding: 10px 25px;
+    display: inline-block;
+}
+.bg-dark-gray{
+    background-color: #d24130;
+    border: 2px solid transparent;
+    transition: .5s;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid #fff;
+    }
+}
+.bg-dark-gray-only{
+    background-color: #d24130;
+}
+
+// section margin =============
+.section-margin{
+    margin-top: 6rem;
+}
